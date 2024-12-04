@@ -1,8 +1,8 @@
+#!/usr/bin/python3
+
 from airflow import Dataset
-from airflow.decorators import (
-    dag,
-    task,
-) 
+from airflow.decorators import dag
+from airflow.decorators import task
 from airflow.models import Variable
 from pendulum import datetime, duration
 import requests
